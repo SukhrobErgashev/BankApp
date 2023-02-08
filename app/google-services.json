@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216165345994",
+    "project_id": "bankapp-835f3",
+    "storage_bucket": "bankapp-835f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216165345994:android:9634c9fc32e3fff5476233",
+        "android_client_info": {
+          "package_name": "dev.sukhrob.bankapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216165345994-vd1kmcvhdlekhvacidj4a00d83cv0a15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzoDWt4Dkwln1G_b-i7gJWVmQTe49hyo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216165345994-vd1kmcvhdlekhvacidj4a00d83cv0a15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

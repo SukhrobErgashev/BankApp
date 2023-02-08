@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BankApp</string>
+    <string name="add_card_info">Karta ma\'lumotlarini kiriting</string>
+    <string name="card_number">Karta raqami</string>
+    <string name="go_ahead">Davom etish</string>
+    <string name="choose_card_color">Karta rangini tanlang</string>
+    <string name="ergashev_sukhrob">Ergashev Sukhrob</string>
+    <string name="uzcard">UZCARD</string>
+    <string name="humo">HUMO</string>
+    <string name="visa">VISA</string>
+</resources>

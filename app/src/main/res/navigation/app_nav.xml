@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/mainScreen"
+    android:id="@+id/app_nav">
+
+    <fragment
+        android:id="@+id/addCardScreen"
+        android:name="dev.sukhrob.bankapp.presentation.screens.add_card.AddCardScreen"
+        android:label="screen_add_card"
+        tools:layout="@layout/screen_add_card" >
+        <action
+            android:id="@+id/action_addCardScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/mainScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="dev.sukhrob.bankapp.presentation.screens.main.MainScreen"
+        android:label="screen_main"
+        tools:layout="@layout/screen_main" >
+        <action
+            android:id="@+id/action_mainScreen_to_addCardScreen"
+            app:destination="@id/addCardScreen" />
+    </fragment>
+</navigation>
